@@ -14,7 +14,7 @@ import (
 
 const (
 	npcNickMask   = "*%s*!%s@npc.fakeuser.invalid"
-	sceneNickMask = "=Scene=!%s@npc.fakeuser.invalid"
+	sceneNickMask = "=Umgebung=!%s@npc.fakeuser.invalid"
 )
 
 func sendRoleplayMessage(server *Server, client *Client, source string, targetString string, isScene, isAction bool, messageParts []string, rb *ResponseBuffer) {

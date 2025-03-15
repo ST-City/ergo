@@ -547,6 +547,11 @@ Ergo's "unified ban" system. Accepts the following subcommands:
 <target> may be an IP, a CIDR, a nickmask with wildcards, or the name of an
 account to suspend. Note that REQUIRE-SASL is only valid for IP and CIDR bans.`,
 	},
+	"umgebung": {
+		text: `UMGEBUNG <target> <text to be sent>
+
+The UMGEBUNG command is used to send a scene notification to the given target.`,
+	},
 	"undline": {
 		oper: true,
 		text: `UNDLINE <ip>/<net>

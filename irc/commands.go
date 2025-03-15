@@ -327,6 +327,10 @@ func init() {
 			minParams: 1,
 			capabs:    []string{"ban"},
 		},
+		"UMGEBUNG": {
+			handler:   sceneHandler,
+			minParams: 2,
+		},
 		"UNDLINE": {
 			handler:   unDLineHandler,
 			minParams: 1,
