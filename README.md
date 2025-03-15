@@ -1,4 +1,4 @@
-![Ergo logo](docs/logo.png)
+ ![Ergo logo](docs/logo.png)
 
 Ergo (formerly known as Oragono) is a modern IRC server written in Go. Its core design principles are:
 
